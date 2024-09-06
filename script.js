@@ -1,5 +1,3 @@
-import "./styles.css";
-
 const heading = document.getElementById("app");
 heading.innerHTML = `<h1>!Jira Board!</h1>`;
 heading.setAttribute("contenteditable", true);

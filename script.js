@@ -62,3 +62,11 @@ taskButton.addEventListener("click", () => {
   });
 });
 
+const button=document.getElementById("toggle")
+button.addEventListener("click",()=>{
+style.backgroundColor="red"
+});  
+
+button.addEventListener("blur",()=>{
+ style.backgroundColor="grey" 
+})
